@@ -3,9 +3,10 @@ from .models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = User
-        fields = ['username', 'first_name']
+        fields = ['username', 'first_name', 'chat_id']
 
 
 class PasswordSerializer(serializers.Serializer):
