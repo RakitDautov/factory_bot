@@ -2,7 +2,7 @@
 
 python3 manage.py makemigrations users
 
-#python3 manage.py makemigrations bot_api
+python3 manage.py makemigrations message_bot
 
 python3 manage.py migrate --no-input
 

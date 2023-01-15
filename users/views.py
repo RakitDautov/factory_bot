@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from rest_framework import viewsets, permissions, status
 from django.contrib.auth.hashers import make_password
 from rest_framework.decorators import action
