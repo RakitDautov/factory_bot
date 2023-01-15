@@ -5,8 +5,6 @@ from .views import MessageView
 
 router_messages = DefaultRouter()
 
-router_messages.register('messages', MessageView, basename='messages')
+router_messages.register("messages", MessageView, basename="messages")
 
-urlpatterns = [
-    path('', include(router_messages.urls))
-]
+urlpatterns = [path("", include(router_messages.urls))]
