@@ -31,7 +31,7 @@ SECRET_KEY = "django-insecure--pfwzvhlw(i%a13%7_8+p+_n&tag%g&wo6)8_5&xjdvk4bmh9r
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
+    "rocke.pythonanywhere.com",
     "web",
     "*",
 ]
